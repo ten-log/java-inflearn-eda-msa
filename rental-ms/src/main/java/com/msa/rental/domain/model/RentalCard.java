@@ -70,10 +70,35 @@ public class RentalCard {
     }
 
     private void calculateLateFee(RentalItem rentalItem, LocalDate returnDate) {
+
         if(returnDate.compareTo(rentalItem.getOverdueDate()) > 0){
-            int point = Period.between(rentalItem.getOverdueDate(), returnDate).getDays()*10;
+            long point;
+            point = Period.between(rentalItem.getOverdueDate(), returnDate).getDays()*10;
             this.lateFee.addPoint(point);
         }
     }
+
+    public RentalCard overdueItem(Item item){
+        RentalItem rentalItem = this.rentalItemList.stream().filter(i-> i.getItem().equals(item)).findFirst().get();
+        rentalItem.setOverdued(true);
+        this.rentStatus = RentStatus.RENT_UNAVILABLE;
+
+        //연체 억지로 만들기 - 불필요한 코드
+        rentalItem.setOverdueDate(LocalDate.now().minusDays(1));
+        return this;
+    }
+
+    public long makeAvailableRental(long point) throws Exception {
+        if(this.rentalItemList.size() != 0) throw new IllegalArgumentException("모든도서가 반납되어야 정지를 해체할수있습니다 ");
+        if(this.getLateFee().getPoint() != point) throw new IllegalArgumentException("해당 포인트로 연체를 해체할수 없습니다");
+
+        this.setLateFee(lateFee.removePoint(point));
+        if(this.getLateFee().getPoint() == 0 ){
+            this.rentStatus = RentStatus.RENT_AVAILABLE;
+        }
+        return this.getLateFee().getPoint();
+
+    }
+
 
 }
