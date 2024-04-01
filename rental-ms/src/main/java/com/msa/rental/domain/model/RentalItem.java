@@ -8,10 +8,15 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import javax.persistence.Embeddable;
+import javax.persistence.Embedded;
+
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+@Embeddable
 public class RentalItem {
+    @Embedded
     private Item item;
     private LocalDate rentDate;
     private boolean overdued;
