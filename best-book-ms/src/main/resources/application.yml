@@ -6,11 +6,20 @@ spring:
     name: sample
   profiles:
     active: default
-  datasource:
-    url: jdbc:h2:mem:testdb
-    username: sa
-    password:
-    driver-class-name: org.h2.Driver
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: test
+#  datasource:
+#    url: jdbc:mysql://127.0.0.1:3306/world
+#    username: root
+#    password: chlduf*814
+  #  datasource:
+  #    url: jdbc:h2:mem:testdb
+  #    username: sa
+  #    password:
+  #    driver-class-name: org.h2.Driver
   jpa:
     hibernate:
       ddl-auto: create

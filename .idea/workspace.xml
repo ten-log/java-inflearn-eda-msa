@@ -4,7 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5baf226-0e4d-43e3-a77d-6504ac159e6a" name="Changes" comment="" />
+    <list default="true" id="c5baf226-0e4d-43e3-a77d-6504ac159e6a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/best-book-ms/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/best-book-ms/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/best-book-ms/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/best-book-ms/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-ms/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/book-ms/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-ms/src/main/java/com/msa/book/config/KafkaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-ms/src/main/java/com/msa/book/config/KafkaConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-ms/src/main/java/com/msa/book/framework/kafkaadapter/BookEventConsumers.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-ms/src/main/java/com/msa/book/framework/kafkaadapter/BookEventConsumers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-ms/src/main/java/com/msa/book/framework/kafkaadapter/BookEventProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-ms/src/main/java/com/msa/book/framework/kafkaadapter/BookEventProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-ms/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/book-ms/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member-ms/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/member-ms/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member-ms/src/main/java/com/msa/member/MemberApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/member-ms/src/main/java/com/msa/member/MemberApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member-ms/src/main/java/com/msa/member/config/KafkaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/member-ms/src/main/java/com/msa/member/config/KafkaConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member-ms/src/main/java/com/msa/member/framework/kafkaadapter/MemberEventConsumers.java" beforeDir="false" afterPath="$PROJECT_DIR$/member-ms/src/main/java/com/msa/member/framework/kafkaadapter/MemberEventConsumers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member-ms/src/main/java/com/msa/member/framework/kafkaadapter/MemberEventProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/member-ms/src/main/java/com/msa/member/framework/kafkaadapter/MemberEventProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member-ms/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/member-ms/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rental-ms/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rental-ms/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rental-ms/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/rental-ms/src/main/resources/application.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,10 +34,14 @@
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 3
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
 }]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2fAjAhQ6GUIHsliT1bSYzyLw2ac" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
@@ -28,15 +50,37 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.BestBookApplication.executor": "Run",
+    "Spring Boot.BookApplication.executor": "Run",
+    "Spring Boot.MemberApplication.executor": "Run",
+    "Spring Boot.RentalApplication.executor": "Run",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "run.configurations.included.in.services": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.BookApplication">
     <configuration name="BestBookApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="BestBook" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.msa.bestbook.BestBookApplication" />
@@ -44,6 +88,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BookApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Book" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.msa.book.BookApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.msa.book.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemberApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Member" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.msa.member.MemberApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RentalApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Rental" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.msa.rental.RentalApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.BookApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -62,6 +138,7 @@
       <option name="presentableId" value="Default" />
       <updated>1713250639516</updated>
       <workItem from="1713250641070" duration="191000" />
+      <workItem from="1713250850330" duration="3624000" />
     </task>
     <servers />
   </component>
