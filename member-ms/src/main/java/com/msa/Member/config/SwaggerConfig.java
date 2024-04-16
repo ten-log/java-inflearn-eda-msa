@@ -1,4 +1,4 @@
-package com.msa.book.config;
+package com.msa.rental.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -14,7 +14,8 @@ public class SwaggerConfig {
         return new Docket(DocumentationType.OAS_30)
                 .useDefaultResponseMessages(true) // Swagger 에서 제공해주는 기본 응답 코드를 표시할 것이면 true
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.msa.book"))
+                // .apis(RequestHandlerSelectors.any())
+                .apis(RequestHandlerSelectors.basePackage("com.msa.member"))
                 .paths(PathSelectors.any())
                 .build();
     }

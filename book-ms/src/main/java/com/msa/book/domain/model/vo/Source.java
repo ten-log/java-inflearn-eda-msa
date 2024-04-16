@@ -1,4 +1,4 @@
-package com.msa.book.domain.vo;
+package com.msa.book.domain.model.vo;
 
 public enum Source {
     DONATION,
